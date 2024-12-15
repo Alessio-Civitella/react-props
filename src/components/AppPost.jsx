@@ -18,6 +18,9 @@ const AppPost = () => {
                 </p>
                 <AppButton />
             </div>
+            <div className={style.description_post}>
+                <CardPosts />
+            </div>
         </div>
     )
 }
